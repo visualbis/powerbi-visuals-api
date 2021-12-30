@@ -1478,7 +1478,7 @@ declare module powerbi.extensibility {
     /** 
      * Provides functionality to save visual content as file
      */
-    export interface IDownloadService {
+     export interface IDownloadService { 
         exportVisualsContent(content: string, fileName: string, fileType: string, fileDescription: string): IPromise<boolean>;
     }
 }
